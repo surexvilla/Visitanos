@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Rex Ahuatepec - Contacto</title>
+    <style>
+        /* Fondo y centrado vertical de la tarjeta */
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            text-align: center; 
+            background-color: #f0f2f5; 
+            margin: 0; 
+            padding: 20px; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* Contenedor blanco (Tarjeta) */
+        .container { 
+            max-width: 380px; 
+            width: 100%;
+            background: white; 
+            padding: 40px 25px; 
+            border-radius: 25px; 
+            box-shadow: 0 15px 35px rgba(0,0,0,0.15); 
+            box-sizing: border-box;
+        }
+
+        /* Logo crecido un 50% y centrado */
+        img { 
+            width: 180px; /* Tamaño optimizado al 150% del original */
+            height: auto; 
+            margin-bottom: 35px; 
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        h2 {
+            color: #2c3e50;
+            margin-bottom: 30px;
+            font-size: 22px;
+            font-weight: 600;
+        }
+
+        /* Botones centrados y con tamaño uniforme */
+        .btn { 
+            display: block; 
+            width: 85%; /* Ancho estético para que no toque los bordes */
+            margin: 15px auto; /* Centrado horizontal automático */
+            padding: 16px 0; 
+            border: none; 
+            border-radius: 14px; 
+            color: white; 
+            text-decoration: none; 
+            font-weight: bold; 
+            font-size: 17px; 
+            transition: all 0.3s ease;
+            box-sizing: border-box; /* Asegura que el padding no desplace el botón */
+        }
+
+        /* Efectos visuales al presionar */
+        .btn:active {
+            transform: scale(0.96);
+            filter: brightness(0.9);
+        }
+
+        /* Colores de marca */
+        .fb { background-color: #1877F2; } /* Azul Facebook */
+        .gm { background-color: #4285F4; } /* Azul Google */
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="https://raw.githubusercontent.com/surexvilla/utilidades/refs/heads/main/rex%20ahuatepec.png" alt="Logo Super Rex Ahuatepec">
+        
+        <h2>¡Gracias por visitarnos!</h2>
+        
+        <a href="https://www.facebook.com/SuperRexAhuatepec/" target="_blank" class="btn fb">Visítanos en Facebook</a>
+        
+        <a href="https://search.google.com/local/writereview?placeid=ChIJ8S9o4-S2zYUR_j8629qYmB4" target="_blank" class="btn gm">Califícanos en Google</a>
+    </div>
+
+</body>
+</html>
